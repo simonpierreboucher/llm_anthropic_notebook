@@ -1,26 +1,46 @@
-### Notebooks Overview
+# LLM Anthropic Notebook
 
-1. **ANTHROPIC-CHATBOT.ipynb**
-   - **Purpose**: This notebook demonstrates the use of an Anthropic model as a chatbot, focusing on dialogue management and responsive conversation flow.
-   - **Contents**: The notebook likely includes setup instructions for initializing the model, preprocessing user inputs, and creating a loop or function to handle conversational exchanges.
-   - **Usage**: Useful for creating chatbot applications powered by Anthropic models, with potential applications in customer service, virtual assistants, or interactive Q&A.
+This repository contains Jupyter notebooks for working with Anthropic Large Language Models (LLMs), providing tools to explore chat-based interactions, retrieval-augmented generation, and text generation. These notebooks serve as a practical introduction to leveraging Anthropic models for various applications.
 
-2. **ANTHROPIC-RAG.ipynb**
-   - **Purpose**: This notebook is centered around Retrieval-Augmented Generation (RAG), where the model retrieves relevant information before generating a response. RAG combines retrieval of pertinent data with generative abilities, enhancing accuracy and relevance.
-   - **Contents**: Includes steps for integrating a retrieval module (likely using embeddings or a search index), and combines retrieved information with model-generated responses for context-aware answers.
-   - **Usage**: Ideal for information-based applications, such as customer support or knowledge retrieval systems, where responses are grounded in specific sources.
+## Repository Structure
 
-3. **ANTHROPIC-TEXTGEN.ipynb**
-   - **Purpose**: This notebook enables exploration of the Anthropic model's text generation capabilities, focusing on generating creative or informative text.
-   - **Contents**: Contains setup for generation parameters (e.g., temperature, max tokens), prompt construction, and text generation examples based on user prompts.
-   - **Usage**: Suitable for applications in content creation, narrative generation, or other areas requiring high-quality, generative text outputs.
+- **[ANTHROPIC-CHATBOT.ipynb](https://github.com/simonpierreboucher/llm_anthropic_notebook/blob/main/ANTHROPIC-CHATBOT.ipynb)**: Demonstrates how to set up and run a chatbot using an Anthropic model, focusing on conversational flow and responsive dialogue management.
+- **[ANTHROPIC-RAG.ipynb](https://github.com/simonpierreboucher/llm_anthropic_notebook/blob/main/ANTHROPIC-RAG.ipynb)**: Implements Retrieval-Augmented Generation (RAG), where the model retrieves relevant information from a predefined source before generating responses. Ideal for Q&A systems and other information-based applications.
+- **[ANTHROPIC-TEXTGEN.ipynb](https://github.com/simonpierreboucher/llm_anthropic_notebook/blob/main/ANTHROPIC-TEXTGEN.ipynb)**: Explores the text generation capabilities of Anthropic models, allowing for creative and informative text output.
 
-### Navigation and Usage
+## Getting Started
 
-1. **Opening the Notebooks**: Load the notebooks in Jupyter by navigating to the directory and running `jupyter notebook`.
-2. **Running Each Notebook**: Follow the embedded instructions within each notebook to set up and use the model for the respective use case (Chatbot, RAG, or Text Generation).
+### Prerequisites
 
-### Repository Files and Commit History
+To run these notebooks, you will need:
+- **Python 3.8+**
+- **Jupyter Notebook**
+- Dependencies listed in `requirements.txt`
 
-- **Latest Commit**: Details recent updates, including any new features, bug fixes, or enhancements.
-- **History**: Provides an overview of all commits, helping to track changes made over time.
+### Installation
+
+Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Notebooks
+
+1. **Start Jupyter Notebook**: Navigate to the repository folder and launch Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+2. **Select a Notebook**: Open any of the notebooks to explore chatbot interactions, RAG, or text generation.
+3. **Follow Instructions**: Each notebook contains specific setup steps and instructions for interacting with the model.
+
+## Use Cases
+
+- **ANTHROPIC-CHATBOT**: Ideal for building conversational agents or virtual assistants.
+- **ANTHROPIC-RAG**: Suitable for applications needing fact-based responses, such as customer support and knowledge retrieval.
+- **ANTHROPIC-TEXTGEN**: Perfect for content generation, story creation, or any task requiring flexible text output.
+
+## Contributing
+
+Feel free to submit issues or pull requests to improve functionality or add new features.
+
